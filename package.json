@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/brewargv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brew timestamps and argv durations for scripts and CI receipts.",
+  "bin": {
+    "brewargv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/brewargv.git"
+  },
+  "homepage": "https://theworker02.github.io/brewargv/",
+  "keywords": [
+    "brew",
+    "argv",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
